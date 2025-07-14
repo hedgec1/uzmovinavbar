@@ -29,8 +29,11 @@ ul li a {
     justify-content: center;
     align-items: center;
     height: 10vh;
+    overflow: hidden;
+    z-index: 0;
 }
 ul li a:hover{
     transition: all 0.8s;
     color: white;
+    background-color: crimson;
 }
